@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { dashboardStyles as s } from '../assets/dummyStyles';
 import { BadgeIndianRupee, CalendarRange, CheckCircle, Search, UserRoundCheck, Users, XCircle } from 'lucide-react';
 
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://medicare-backend-0p9q.onrender.com';
 const PATIENT_COUNT_API = `${API_BASE}/api/appointments/paitents/count`; 
 
 //Helper function 

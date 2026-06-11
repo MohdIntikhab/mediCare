@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import { ArrowLeft } from 'lucide-react';
 const STORAGE_KEY = "doctorToken_v1"
 const LoginPage = () => {  
-   const API_BASE = 'http://localhost:4000'
+   const API_BASE = 'https://medicare-backend-0p9q.onrender.com'
   const [formData, setFormData] = useState({email: "", password: ""});
   const [busy, setBusy] = useState(false);
   const navigate = useNavigate(); 

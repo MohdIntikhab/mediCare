@@ -3,7 +3,7 @@ import { listPageStyles } from '../assets/dummyStyles'
 import { Calendar, Phone, Search, X } from 'lucide-react';
 import { useParams } from 'react-router-dom';
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://medicare-backend-0p9q.onrender.com";
 
 
 // helper function similar to dasgboard 

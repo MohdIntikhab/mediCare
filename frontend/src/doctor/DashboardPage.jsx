@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { dashboardStyles } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://medicare-backend-0p9q.onrender.com";
 
 //parse the date with time 
 function parseDateTime(date, time) {

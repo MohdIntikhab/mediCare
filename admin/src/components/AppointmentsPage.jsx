@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { pageStyles, statusClasses, keyframesStyles } from '../assets/dummyStyles'
 import { Calendar, Search, BadgeIndianRupee } from 'lucide-react';
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://medicare-backend-0p9q.onrender.com";
 
 //Helper Function  
 //This Function return the Date as 23 May 2026
