@@ -1,5 +1,5 @@
 import React from 'react'
-import DoctorNavbar from './doctorNavbar'
+import DoctorNavbar from './DoctorNavbar'
 import ListPage from '../components/ListPage'
 
 const List = () => {
